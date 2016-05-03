@@ -12,4 +12,4 @@ cp target/*.jar dist
 
 scp -r dist conf bin 104.197.3.199:/home/william/tmp
 echo "Running on the server: "
-ssh 104.197.3.199 "bash /home/william/tmp/bin/start.sh"
+ssh 104.197.3.199 "bash /home/william/tmp/bin/daemon.sh start"
